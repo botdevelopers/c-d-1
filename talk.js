@@ -1,6 +1,6 @@
 const Disc = require('discord.js');
 const client = new Disc.Client();
-const token = 'NTEzMzM2NjgwODc1NTU2ODg0.DtGh0g.TKijuoiMVXWHpKloqu7ISrsYiro' //Make a bot and get it's token paste it here!!
+const token = '' //Make a bot and get it's token paste it here!!
 const readline = require('readline');
 
 var guildID = "513336325362024448";
@@ -37,4 +37,4 @@ client.on('message', function(message){
      }
 });
 
-client.login(token);
+client.login(process.env.BOT_TOKEN);
